@@ -1,4 +1,153 @@
-.App {
+
+.data-menu{
+  width: 20px;
+  height: 20px;
+}
+.sitetitle{
+padding:20px;
+
+}
+
+.box-1{
+
+  letter-spacing: 0.2em;
+  box-sizing: border-box;
+  background-color:#0084bf;
+  padding:10px;
+  border-radius: 1px;
+  line-height: 1.5em;
+ 
+} 
+
+.videobox {
+  margin:0px;
+  padding:20px;
+  position: relative;
+  margin-top:20px;
+  left:100px;
+  /* margin-left:50px; */
+  min-width: 50%;
+  min-height: 0%;
+
+  /* padding-bottom: 56.25%; */
+}
+
+.videobox iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:80%;
+  height:90%;
+
+} 
+
+.title2{
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top:30px;
+  line-height: 40px;
+  font-weight: 200;
+  color: rgba(0,0,0,0.85);
+  font-size: 40px;
+}
+.text{
+  margin-top:30px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(0,0,0,0.7);
+  font-size: 17px;
+  font-family: /* Roman */ Source Sans Pro, Helvetica, Arial, sans-serif, /* CJK */ Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, /* Arabic */ Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, /* Thai */ Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, /* Sans Fallbacks */ Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', /* CJK Fallbacks */ Heiti SC, Microsoft Yahei, Segoe UI;
+}
+.mareSmall{
+
+  line-height: 100px; 
+  font-weight: 200; 
+  color: rgba(0,0,0,0.85); 
+  font-size: 23px;
+
+}
+.samll{
+
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(0,0,0,0.85);
+  font-size: 17px;
+}
+.text2{
+ justify-content: center;
+ align-items: center;
+}
+.get{
+
+  line-height: 50px; 
+  font-weight: 300; 
+  color: rgba(0,0,0,0.85); 
+  font-size: 38px;
+  
+
+}
+.s{
+ 
+  line-height: 28px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.7);
+  font-size: 21px;
+  
+}
+.p{
+  margin-top: 30px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(0,0,0,0.7);
+  font-size: 18px;
+
+}
+
+.Recommend{
+  line-height: 40px;
+  font-weight: 200;
+  color: rgba(0,0,0,0.85);
+  font-size: 38px;
+}
+.jo{
+  line-height: 40px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0);
+  border: 0;
+  color: #0084bf;
+}
+.under{
+ 
+  line-height: 16px;
+  font-weight: 400;
+  color: rgba(0,0,0,0.55);
+  font-size: 13px;
+  display: block;
+
+  padding: 4px 10px 3px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+.lin{
+  
+  font-weight: 200;
+  color: rgba(0,0,0,0.85);
+  font-size: 34px;
+}
+.d{
+ 
+  font-weight: 600;
+  color: rgba(0,0,0,0.85);
+  font-size: 15px;
+}
+.e{
+
+  font-weight: 400;
+  color: rgba(0,0,0,0.85);
+  font-size: 15px;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +184,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
